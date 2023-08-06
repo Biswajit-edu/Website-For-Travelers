@@ -1,0 +1,37 @@
+/* creating a varible in css named as main-bg-color */
+
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+
+:root{
+  --main-bg-color:#af12af;
+  --font1: 'Baloo 2', cursive;
+  --font2: 'Roboto', sans-serif;
+}
+.font1{
+  font-family:var(--font1);
+}
+.font2{
+  font-family:var(--font2);
+}
+.max-width1{
+   width: 80vw;
+  /* 80vw mean it is the 80% width of total view screen */
+}
+.max-width2{
+  width: 60vw;
+}
+.my-2{
+  margin-top: 12px;
+  margin-bottom:12px;
+}
+.margin_auto{
+   margin: auto;
+}
+.social{
+      display: flex;
+    width: 151px;
+    height: 35px;
+    justify-content: space-evenly;
+    margin: 7px 0px;
+    cursor:pointer;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+   <link rel="stylesheet" href="css/utils.css" type="text/css" />
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="next" herf="/search.html" />
+   <title>This is a Travel Blog</title>
+</head>
+
+<body>
+ 
+  <!-- ////----- Navbar begins ------///// -->
+     <nav class="navigation max-width1 margin_auto">
+        <div class="nav-left" >
+          <a href="/index.html" class="logo">Travel</a>
+          <div class="bx-menu" id="menu-icon"></div>
+        <ul>
+          <div class="text" id="my-nav">
+           <li><a href="/index.html">Home</a></li>
+           <li><a href="/search.html">About</a></li>
+           <li><a href="/contact.html">Contact</a></li>
+          </div>
+          <div class="home-menu">
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+          </div>
+         
+          <!-- to remove this '.' marks set list-style is none -->
+        </ul>
+        </div>
+       <div class="nav-right">
+         <from action="/search.html" method="get">
+           <input class="form-input" type="text" name="query" placeholder="Article Search">
+           <button  class="btn"><a href="/search.html"> search</a></button>
+           </form>
+       </div>
+     </nav>
+<!-- ////----- NavBar Ends ------///// -->
+   <div class="max-width1 margin_auto"><hr></div>
+  <!-- ////----- Content begins ------///// -->
+    <div class="content max-width1 margin_auto my-2">
+     <div class="content-left">
+       <h3>The heaven for travellers</h3>   
+         <p>Welcome to our blogging website, a virtual hub tailor-made for adventurers and explorers like you, where captivating travel stories, expert tips, breathtaking photography, and immerse you in the wonders of the world.</p>
+       <p>Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+     </div>
+      
+      <div class="content-right">
+           <img src="img/home.jpg" alt="blog">
+      </div>
+      
+    </div>
+<!-- ////----- Content Ends ------///// -->
+
+    <div class="max-width1 margin_auto"><hr></div>
+
+  <!-- /////------ Articles starts -----//////  -->
+    <div class="All-articles max-width1 margin_auto font2" style="margin-top:8px;" >
+       <h2>Feartured Articles</h2>
+       <div class="year-box">
+          <h3>Year</h3>
+          <div><input type="radio" name="year" id="" >2020</div>
+         
+         <div> <input type="radio" name="year" id="">2021</div>
+       </div>
+      
+       <div class="article"> 
+          <div class="article-img">
+              <img src="img/beach2.jpg" alt="article">
+          </div>
+
+         <div class="article-content font1">
+           <a href="/blogpost.html"><h3>The World Travel Guide</h3></a>
+            <div>Author name</div>
+            <span>07 January | 5 min read</span>
+           <div class ="content-read">
+             Welcome to our blogging website, a virtual <span class="read-more-btn" id="read" onclick="read()">Read More</span><p class="read-more" id="more">Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+             
+           </div> 
+         </div>
+       </div>
+
+        <div class="article"> 
+          <div class="article-img">
+              <img src="img/resort.jpg" alt="article">
+          </div>
+
+         <div class="article-content font1">
+           <a href="/blogpost1.html"><h3>The World Travel Guide</h3></a>
+            <div>Author name</div>
+            <span>07 January | 5 min read</span>
+            <div class ="content-read">
+             Welcome to our blogging website, a virtual <span class="read-more-btn" id="read1" onclick="read1()">Read More</span><p class="read-more" id="more1">Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+             
+           </div>
+         </div>
+       </div>
+
+        <div class="article"> 
+          <div class="article-img">
+              <img src="img/beach.jpg" alt="article">
+          </div>
+
+         <div class="article-content font1">
+           <a href="/blogpost2.html"><h3>The World Travel Guide</h3></a>
+            <div>Author name</div>
+            <span>07 January | 5 min read</span>
+            <div class ="content-read">
+             Welcome to our blogging website, a virtual <span class="read-more-btn" id="read2" onclick="read2()">Read More</span><p class="read-more" id="more2">Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+             
+           </div>
+         </div>
+       </div>
+
+        <div class="article"> 
+          <div class="article-img">
+              <img src="img/maldives.jpg" alt="article">
+          </div>
+
+         <div class="article-content font1">
+           <a href="/blogpost3.html"><h3>The World Travel Guide</h3></a>
+            <div>Author name</div>
+            <span>07 January | 5 min read</span>
+            <div class ="content-read">
+             Welcome to our blogging website, a virtual <span class="read-more-btn" id="read3" onclick="read3()">Read More</span><p class="read-more" id="more3">Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+             
+           </div>
+         </div>
+       </div>
+
+        <div class="article"> 
+          <div class="article-img">
+              <img src="img/sunrise.jpg" alt="article">
+          </div>
+
+         <div class="article-content font1">
+           <a href="/blogpost4.html"><h3>The World Travel Guide</h3></a>
+            <div>Author name</div>
+            <span>07 January | 5 min read</span>
+            <div class ="content-read">
+             Welcome to our blogging website, a virtual <span class="read-more-btn" id="read4" onclick="read4()">Read More</span><p class="read-more" id="more4">Welcome, adventurous souls and intrepid wanderers, to our virtual sanctuary of exploration and discovery! As you step into our vibrant blogging universe, a realm crafted to ignite your wanderlust and satiate your curiosity, we invite you to embark on a boundless journey of captivating tales, breathtaking vistas, and cultural wonders from every corner of the globe. Whether you are a seasoned globetrotter or a dreamer taking your first steps towards the horizon, our blogging haven awaits to transport you to far-flung destinations, offering valuable insights, expert tips, and a tapestry of captivating narratives woven by fellow nomads and travel enthusiasts.</p>
+             
+           </div>
+         </div>
+       </div>
+    </div>
+
+  <!-- /////------ Articles ends -----//////  -->
+
+  <!-- /////------ Footer starts -----//////  -->
+  
+    <div class="footer">
+      <div class="footer-box">
+        <h2>Travel</h2>
+        <p>Free vector & PNG instagram image 5210110 by ghufronagustian. Get this royalty free image & millions more.</p>
+
+        <div class="social-footer">
+           
+           <a href="/index.html">Facebook</a>
+           <a href="/search.html">Instagram</a>
+           <a href="/contact.html">Twitter</a>
+          <!-- to remove this '.' marks set list-style is none -->   
+        </div>
+      </div>
+      <!-- <div class="footer-box">
+        <h3>Services</h3>
+         <li><a href="#">Products</a></li>
+           <li><a href="#">Help & Support</a></li>
+           <li><a href="#">Pricing</a></li>
+          <li><a href="#">FAQ</a></li>
+      </div> -->
+      <div class="footer-box">
+        <h3>Offices</h3>
+         <li><a href="#">India</a></li>
+           <li><a href="#">Russia</a></li>
+           <li><a href="#">China</a></li>
+          <li><a href="#">Thailand</a></li>
+      </div>
+      
+      <div class="footer-box">
+        <h3>Contact Us</h3>
+         <li><a href="#">About Us</a></li>
+           <li><a href="#">Our Blogs</a></li>
+           <li><a href="#">Our Team</a></li>
+          <li><a href="#">Customers</a></li>
+      </div>
+  <div><p>Copyright &copy; iBlog.com</p></div>
+      
+    </div>
+  
+  <!-- /////------ Footer ends -----//////  -->
+
+
+   <script src="js/script.js"></script>
+</body>
+
+</html>
